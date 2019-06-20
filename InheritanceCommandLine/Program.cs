@@ -6,7 +6,12 @@ namespace InheritanceCommandLine
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Rectangle rectangle = new Rectangle(5, 10);
+
+            Square square = new Square(5);
+
+            rectangle.Obsah();
+            square.Obsah();
         }
     }
 }
