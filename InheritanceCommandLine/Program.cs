@@ -13,6 +13,9 @@ namespace InheritanceCommandLine
             Square square = new Square();
             square.a = 5;
             square.b = 10;
+
+            rectangle.Obsah();
+            square.Obsah();
         }
     }
 }

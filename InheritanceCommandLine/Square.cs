@@ -6,6 +6,9 @@ namespace InheritanceCommandLine
 {
     class Square : Rectangle
     {
-
+        public override int Obsah()
+        {
+            return a * a;
+        }
     }
 }

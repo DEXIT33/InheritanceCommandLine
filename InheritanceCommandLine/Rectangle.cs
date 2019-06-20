@@ -8,5 +8,10 @@ namespace InheritanceCommandLine
     {
         public int a;
         public int b;
+
+        public virtual int Obsah()
+        {
+            return a * b;
+        }
     }
 }
