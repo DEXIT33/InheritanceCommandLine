@@ -1,0 +1,2 @@
+# InheritanceCommandLine
+C# inheritance example
