@@ -12,6 +12,11 @@ namespace InheritanceCommandLine
 
             rectangle.Obsah();
             square.Obsah();
+
+            Console.WriteLine(rectangle);
+            Console.WriteLine(square);
+
+            Console.ReadKey(true);
         }
     }
 }

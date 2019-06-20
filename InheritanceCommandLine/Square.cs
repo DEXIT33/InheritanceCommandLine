@@ -15,5 +15,10 @@ namespace InheritanceCommandLine
         {
             return a * a;
         }
+
+        public override string ToString()
+        {
+            return "Čtverec";
+        }
     }
 }

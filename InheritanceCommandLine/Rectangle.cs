@@ -19,5 +19,10 @@ namespace InheritanceCommandLine
         {
             return a * b;
         }
+
+        public override string ToString()
+        {
+            return "Obdelník";
+        }
     }
 }
