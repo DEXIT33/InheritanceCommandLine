@@ -6,13 +6,9 @@ namespace InheritanceCommandLine
     {
         static void Main(string[] args)
         {
-            Rectangle rectangle = new Rectangle();
-            rectangle.a = 5;
-            rectangle.b = 10;
+            Rectangle rectangle = new Rectangle(5, 10);
 
-            Square square = new Square();
-            square.a = 5;
-            square.b = 10;
+            Square square = new Square(5);
 
             rectangle.Obsah();
             square.Obsah();

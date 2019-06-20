@@ -6,8 +6,14 @@ namespace InheritanceCommandLine
 {
     class Rectangle
     {
-        public int a;
-        public int b;
+        protected int a;
+        protected int b;
+
+        public Rectangle(int a, int b)
+        {
+            this.a = a;
+            this.b = b;
+        }
 
         public virtual int Obsah()
         {
